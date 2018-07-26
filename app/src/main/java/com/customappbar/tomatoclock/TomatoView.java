@@ -59,7 +59,7 @@ public class TomatoView extends View {
         super(context, attrs); //xml構造
         vibrator = (Vibrator)context.getSystemService(Service.VIBRATOR_SERVICE);//震動服務
         soundPool = new SoundPool(1, AudioManager.STREAM_MUSIC, 5);
-        soundID = soundPool.load(context, R.raw.windd, 1);//音效服務
+        soundID = soundPool.load(context, R.raw.sound1, 1);//音效服務
     }
     public TomatoView(Context context, @Nullable AttributeSet attrs, int defStyleAttr) {
         super(context, attrs, defStyleAttr); //xml+style構造

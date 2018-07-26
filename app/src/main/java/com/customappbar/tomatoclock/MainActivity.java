@@ -75,7 +75,7 @@ public class MainActivity extends AppCompatActivity {
                         clockView.invalidate();
                         switch (currentTime){//currentTime用於執行倒數後同步執行睡眠時間，使時間不延遲進而產生Dialog
                             case "5":
-                                sleepTime = 3000;
+                                sleepTime = 300000;
                                 break;
                             case"10":
                                 sleepTime = 600000;
